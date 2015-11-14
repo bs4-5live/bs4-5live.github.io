@@ -2,7 +2,7 @@
 /* ------------------------------------------- SASS Information
  Name:      style.scss
  Author:    Loxis
- Update:    2015-11-14 15:35:48 +0900
+ Update:    2015-11-15 01:34:29 +0900
  Info:      Bonds of Smiley 4.5 Live
 ----------------------------------------------------------- */
 /* -----------------------------------------------------------
@@ -4761,12 +4761,10 @@ input[type="submit"][disabled] {
 }
 .promise .section .inner ul li {
   margin: 0 0 24px;
-  text-indent: -1em;
-  padding-left: 1em;
 }
 .promise .section .inner ul li.note {
   margin: 0;
-  padding: 20px 0 0 1em;
+  padding: 20px 0 0;
 }
 
 /* ------------------------------------------- SASS Information
