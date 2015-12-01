@@ -2,7 +2,7 @@
 /* ------------------------------------------- SASS Information
  Name:      style.scss
  Author:    Loxis
- Update:    2015-11-15 01:34:29 +0900
+ Update:    2015-11-16 03:22:26 +0900
  Info:      Bonds of Smiley 4.5 Live
 ----------------------------------------------------------- */
 /* -----------------------------------------------------------
@@ -1535,6 +1535,13 @@ textarea:focus {
   -moz-opacity: 0.3;
   -khtml-opacity: 0.3;
   zoom: 1;
+}
+.pattern:after {
+  content: ".";
+  display: block;
+  margin-top: -1em;
+  line-height: 1;
+  color: transparent;
 }
 
 /* -----------------------------------------------------------
