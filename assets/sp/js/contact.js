@@ -4,7 +4,7 @@
  * 動作環境： iPad / iPhone / Android
  * 対応ブラウザ： 標準ブラウザ / GoogleChrome
  * --------------------
- * @version: 1.0
+ * @version: 1.1
  * @author : Loxis
  * --------------------
  */
@@ -35,7 +35,7 @@
           return $("#ss-submit").each(function() {
             var txt;
             txt = $(this).val();
-            $(this).val(txt.replace(/Submit/g, "この内容で予約する"));
+            $(this).val(txt.replace(/Submit/g, "この内容で送信する"));
             $('input').eq(0).attr('placeholder', 'お名前を入力して下さい');
             $('input').eq(1).attr('placeholder', 'メールアドレスを入力して下さい');
             $('input').eq(2).attr('placeholder', 'URLを入力して下さい');
