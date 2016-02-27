@@ -16,8 +16,6 @@
       $('#section-contents').css({
         backgroundSize: 'cover'
       });
-    } else {
-      console.log('common: modern');
     }
     $LAB.script(PC_JS_DIR + 'lib/jquery.wHover.js').wait(function() {
       $('.wHover').wHover();
