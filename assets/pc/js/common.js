@@ -4,7 +4,7 @@
  * 動作環境： Windows / Macintosh
  * 対応ブラウザ： GoogleChrome / Firefox / Safari / Opera / IE11 / IE10 / IE9 / IE8
  * --------------------
- * @version: 1.0
+ * @version: 1.1
  * @author : Loxis
  * --------------------
  */
