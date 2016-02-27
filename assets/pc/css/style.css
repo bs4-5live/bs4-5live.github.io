@@ -2,7 +2,7 @@
 /* ------------------------------------------- SASS Information
  Name:      style.scss
  Author:    Loxis
- Update:    2015-11-14 16:32:35 +0900
+ Update:    2016-02-27 19:51:41 +0900
  Info:      Bonds of Smiley 4.5 Live
 ----------------------------------------------------------- */
 /* -----------------------------------------------------------
@@ -4803,6 +4803,9 @@ textarea:focus {
 .ticket #ticket .inner #contactForm {
   min-height: 541px;
   position: relative;
+}
+.ticket #ticket .inner #contactForm.closed {
+  min-height: initial;
 }
 .ticket #ticket .inner #contactForm h4 {
   font-size: 24px;

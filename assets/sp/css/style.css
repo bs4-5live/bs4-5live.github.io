@@ -2,7 +2,7 @@
 /* ------------------------------------------- SASS Information
  Name:      style.scss
  Author:    Loxis
- Update:    2015-11-16 03:22:26 +0900
+ Update:    2016-02-27 19:51:28 +0900
  Info:      Bonds of Smiley 4.5 Live
 ----------------------------------------------------------- */
 /* -----------------------------------------------------------
@@ -4859,6 +4859,9 @@ input[type="submit"][disabled] {
 .ticket #ticket .inner #contactForm {
   min-height: 541px;
   position: relative;
+}
+.ticket #ticket .inner #contactForm.closed {
+  min-height: initial;
 }
 .ticket #ticket .inner #contactForm h4 {
   font-size: 20px;
